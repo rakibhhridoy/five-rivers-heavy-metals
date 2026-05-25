@@ -19,7 +19,7 @@ authors:
     affiliation: "Atomic Energy Centre, Dhaka"
 type: software
 license: MIT
-repository-code: "https://github.com/<your-handle>/five-rivers-heavy-metals"
+repository-code: "https://github.com/rakibhhridoy/five-rivers-heavy-metals"
 keywords:
   - heavy metals
   - sediment

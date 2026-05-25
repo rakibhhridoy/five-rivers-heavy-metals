@@ -12,7 +12,7 @@ This repository contains the **code**, **small derived data**, and **rebuild scr
 ## Quickstart — reproduce the figures (no model training)
 
 ```bash
-git clone https://github.com/<your-handle>/five-rivers-heavy-metals.git
+git clone https://github.com/rakibhhridoy/five-rivers-heavy-metals.git
 cd five-rivers-heavy-metals
 python -m venv .venv && source .venv/bin/activate    # optional but recommended
 pip install -r requirements.txt
@@ -40,16 +40,20 @@ five-rivers-heavy-metals/
 ├── requirements.txt           pinned Python deps
 ├── run_all.py                 master reproducibility script
 ├── src/
-│   ├── pipeline/              30 phase scripts (phase0 → phase11)
-│   └── figures/               9 figure regeneration scripts
-├── results/                   26 intermediate CSVs (small derived artifacts)
-├── figures/                   the published PNGs + regenerated outputs
+│   ├── pipeline/              38 scripts: 30 phase (phase0 → phase11) + 8 extra
+│   │                          (Kd, PCA, indices, Mann-Kendall, Monte Carlo,
+│   │                           health risk, 5 DL architectures, LIME)
+│   ├── figures/               11 figure regeneration scripts
+│   └── gis/                   spectral-index calculation + GIS workflow docs
+├── results/                   40 intermediate CSVs (small derived artifacts)
+├── figures/                   14 published PNGs + regenerated outputs
 ├── data/                      input data (primary + harmonized secondary)
 │   └── secondary/             harmonized 111-row literature dataset + audit
 ├── docs/
 │   ├── FIGURE_TABLE_MAP.md    figure/table → script → data chain
+│   ├── AUDIT_COVERAGE.md      manuscript ↔ package coverage matrix
 │   ├── DATA_AVAILABILITY.md   pointer to the Zenodo deposit + provenance
-│   └── KNOWN_ISSUES.md        candid notes on the Mn-exclusion decision
+│   └── KNOWN_ISSUES.md        candid notes (Mn exclusion, gap deep-dive, env)
 └── zenodo_manifest/
     └── MANIFEST.md            what goes on Zenodo, with checksums (to be filled at deposit time)
 ```
