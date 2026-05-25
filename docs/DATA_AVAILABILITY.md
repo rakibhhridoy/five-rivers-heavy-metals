@@ -20,7 +20,7 @@ The complete repository is ~40 MB.
 
 ## What is on Zenodo
 
-The Zenodo deposit ([DOI to be inserted on publication]) provides the **complete data archive** in a single immutable snapshot, including items too large to host on GitHub:
+The Zenodo deposit (https://doi.org/10.5281/zenodo.20378184) provides the **complete data archive** in a single immutable snapshot, including items too large to host on GitHub:
 
 - A mirror of this repository's `data/` (so the Zenodo record stands alone, with no GitHub dependency)
 - `gis/` — five-river basin boundaries, brick-kiln point shapefiles, industrial site shapefiles, study-area background layers (~3.4 GB)

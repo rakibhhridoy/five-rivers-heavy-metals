@@ -1,5 +1,11 @@
 # Zenodo deposit — manifest
 
+> **DEPOSITED 2026-05-25.** The archive is live at **https://doi.org/10.5281/zenodo.20378184**.
+> A single combined archive `five-rivers-heavy-metals-data.zip` was uploaded (1.82 GB,
+> 508 files: `README.txt` + curated `data/` + full `gis/` tree, junk excluded).
+> SHA-256: `69fc9eed844c15cad7307d9731f39dc081ee36baaf5c1ac9d12c6dce8e31c2d5`.
+> The per-directory split below was the original plan; the single-archive form was used instead.
+
 Items to upload to the Zenodo record paired with this GitHub repository. Build the deposit by archiving the items listed here into a single `.zip` (or one `.zip` per top-level directory if the total exceeds Zenodo's per-file limit).
 
 ## Suggested Zenodo metadata
@@ -55,7 +61,7 @@ and replace the table below.
 
 ## After publication
 
-1. Update `CITATION.cff` in the GitHub repo with the Zenodo DOI.
-2. Update `README.md` "DOI to be inserted upon deposit" with the real DOI.
-3. Tag the GitHub repo with a release matching the Zenodo version (e.g. `v1.0.0`).
-4. If GitHub-Zenodo integration is enabled, the next GitHub release will be archived automatically — a useful arrangement that lets *future* edits to the repo each generate a new Zenodo version that cites back to this one.
+1. ✅ DONE — `CITATION.cff` updated with the Zenodo DOI (top-level `doi` + `identifiers`).
+2. ✅ DONE — `README.md` and `docs/DATA_AVAILABILITY.md` updated with https://doi.org/10.5281/zenodo.20378184.
+3. TODO — tag the GitHub repo with a release matching the Zenodo version (e.g. `v1.0.0`).
+4. TODO (optional) — enable GitHub-Zenodo integration so future GitHub releases auto-archive as new Zenodo versions citing back to this one.

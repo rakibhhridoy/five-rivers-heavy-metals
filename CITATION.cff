@@ -20,6 +20,11 @@ authors:
 type: software
 license: MIT
 repository-code: "https://github.com/rakibhhridoy/five-rivers-heavy-metals"
+doi: "10.5281/zenodo.20378184"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20378184"
+    description: "Zenodo archive (code + data)"
 keywords:
   - heavy metals
   - sediment

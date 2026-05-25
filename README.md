@@ -5,7 +5,7 @@ Reproducibility package for:
 > **Geochemistry Source Attribution and Satellite-Prediction Boundaries for Heavy Metals in Dhaka's Five Rivers.**
 > Hasan, Rahman, Zubyer, Rupa, Arabi, and Jolly. Submitted to *Science of the Total Environment*, 2026.
 
-This repository contains the **code**, **small derived data**, and **rebuild scripts** for every figure and table in the manuscript and supplementary material. Large raw inputs (raw lab record, GIS shapefiles, trained model weights) are archived on Zenodo: **DOI to be inserted upon deposit**.
+This repository contains the **code**, **small derived data**, and **rebuild scripts** for every figure and table in the manuscript and supplementary material. Large raw inputs (raw lab record, GIS shapefiles, trained model weights) are archived on Zenodo: **https://doi.org/10.5281/zenodo.20378184**.
 
 ---
 
@@ -66,9 +66,9 @@ five-rivers-heavy-metals/
 
 ## Citing this package
 
-If you use the code or data, please cite **both** the paper (DOI on acceptance) and this package (`CITATION.cff` resolves to a Zenodo DOI once the deposit is published). The recommended attribution is:
+If you use the code or data, please cite **both** the paper (journal DOI on acceptance) and this package (Zenodo). The recommended attribution is:
 
-> Hasan, M. R., et al. (2026). *five-rivers-heavy-metals: Reproducibility package for "Geochemistry Source Attribution and Satellite-Prediction Boundaries for Heavy Metals in Dhaka's Five Rivers"*. Zenodo. https://doi.org/10.xxxx/xxxxxx
+> Hasan, M. R., et al. (2026). *five-rivers-heavy-metals: Reproducibility package for "Geochemistry Source Attribution and Satellite-Prediction Boundaries for Heavy Metals in Dhaka's Five Rivers"*. Zenodo. https://doi.org/10.5281/zenodo.20378184
 
 ## Contact
 
