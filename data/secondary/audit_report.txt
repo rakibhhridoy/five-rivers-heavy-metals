@@ -1,0 +1,144 @@
+========================================================================
+PHASE 0.1 — LOAD & AUDIT
+========================================================================
+Source: /Volumes/SSD Ex/Five_Rivers/SecondaryData/MAIN DATA.csv
+Rows: 112
+Columns: 50
+
+Papers present (ID / Author / Year):
+    1  Bhuiyan       2015
+    2  Hossain       2021
+    3  Islam         2021
+    4  Jolly         2023
+    6  Akter         2025
+    7  Mohanta       2019
+
+Paper ID sequence: [np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(6), np.int64(7)]
+Missing IDs in range: [5]
+
+Rows per (paper, river):
+  P1 Bhuiyan      Buriganga      n=30
+  P2 Hossain      Buriganga      n=20
+  P2 Hossain      Turag          n=20
+  P3 Islam        Dhaleshwari    n=5
+  P4 Jolly        Shitalakshya   n=2
+  P6 Akter        Balu           n=15
+  P7 Mohanta      Dhaleshwari    n=20
+
+Matrix × Season:
+Matrix    Season      
+Sediment  Dry             21
+          Rainy            1
+          Summer          10
+          Wet              5
+          Winter          10
+Water     Dry             20
+          Monsoon          5
+          Post-monsoon     5
+          Pre-monsoon      5
+          Summer          10
+          Wet              5
+          Winter          10
+
+Access_status:
+Access_status
+Accessed    112
+
+Analytical_method:
+Analytical_method
+AAS           55
+FAAS/GFAAS    40
+EDXRF         17
+
+Background_standard:
+Background_standard
+Turekian & Wedepohl 1961    40
+Cabrera et al. 1999         30
+Martin & Meybeck 1979        2
+
+Unit distribution:
+Unit
+µg/L     65
+mg/kg    47
+
+NaN counts — metal columns:
+  Cr_conc    NaN=   9  present= 103
+  Ni_conc    NaN=  40  present=  72
+  Cu_conc    NaN=   5  present= 107
+  As_conc    NaN=  64  present=  48
+  Cd_conc    NaN=  48  present=  64
+  Pb_conc    NaN=   9  present= 103
+  Mn_conc    NaN=  65  present=  47
+  Fe_conc    NaN=  42  present=  70
+
+NaN counts — coord columns:
+  Lat        NaN=  90  present=  22
+  Lon        NaN=  90  present=  22
+
+========================================================================
+PHASE 0.2 — SEASON NORMALIZATION
+========================================================================
+Mapping written to SecondaryData/season_map.csv
+Season        Season_Norm
+Dry           Winter         41
+Monsoon       Rainy           5
+Post-monsoon  Winter          5
+Pre-monsoon   Rainy           5
+Rainy         Rainy           1
+Summer        Rainy          20
+Wet           Rainy          10
+Winter        Winter         20
+NaN           NaN             5
+
+========================================================================
+PHASE 0.3 — UNIT NORMALIZATION
+========================================================================
+All units already in target form (µg/L water, mg/kg sediment).
+
+After normalization — Unit_Norm × Matrix:
+Matrix    Unit_Norm
+Sediment  mg/kg        47
+Water     µg/L         65
+
+========================================================================
+PHASE 0.4 — BDL / NON-NUMERIC HANDLING
+========================================================================
+No non-numeric concentration entries detected in MAIN DATA.csv.
+(Uddin & Jeong review sheet, if later merged, contains BDL strings.)
+
+========================================================================
+PHASE 0.5 — MATRIX SEPARATION (LONG FORMAT)
+========================================================================
+harmonized_water.csv:      520 rows  (330 with value)
+harmonized_sediment.csv:   376 rows  (284 with value)
+
+========================================================================
+PHASE 0.6 — BACKGROUND STANDARD DECISION
+========================================================================
+Chosen: Turekian & Wedepohl 1961 (average shale composition).
+Rationale: most widely cited global sediment background; already used by
+Hossain 2021 in our compilation; enables direct comparison with prior lit.
+
+Values (mg/kg):
+Metal  Background_mg_per_kg                                   Source
+   Cr                  90.0 Turekian & Wedepohl 1961 (average shale)
+   Ni                  68.0 Turekian & Wedepohl 1961 (average shale)
+   Cu                  45.0 Turekian & Wedepohl 1961 (average shale)
+   As                  13.0 Turekian & Wedepohl 1961 (average shale)
+   Cd                   0.3 Turekian & Wedepohl 1961 (average shale)
+   Pb                  20.0 Turekian & Wedepohl 1961 (average shale)
+   Mn                 850.0 Turekian & Wedepohl 1961 (average shale)
+   Fe               47200.0 Turekian & Wedepohl 1961 (average shale)
+
+========================================================================
+GATE G0 — PHASE 0 EXIT CHECKS
+========================================================================
+  [✓] harmonized_water.csv exists
+  [✓] harmonized_sediment.csv exists
+  [✓] season_map.csv exists
+  [✓] background_std.csv exists
+  [✓] all water rows Unit_Norm=µg/L
+  [✓] all sediment rows Unit_Norm=mg/kg
+  [✓] Season_Norm ⊆ {Rainy, Winter, NaN}
+
+GATE G0: PASS

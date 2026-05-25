@@ -1,0 +1,3 @@
+Metal,Season,Model,Point_LOOCV_R2_SVR,Bootstrap_median,CI95_low,CI95_high,n_boot
+Pb,Rainy,SVR_pooled_log_climate,0.197,0.607,0.116,0.939,1000
+Pb,Winter,SVR_pooled_log_climate,0.154,0.582,0.138,0.91,1000

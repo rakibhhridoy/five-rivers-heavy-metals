@@ -1,0 +1,3 @@
+Metal,Season,Model,Point_LOOCV_R2,Bootstrap_median_R2,CI95_low,CI95_high,n_boot_used
+Cd,Rainy,SVR,0.607,0.748,0.114,0.959,1000
+Cd,Winter,SVR,0.527,0.727,0.143,0.956,1000

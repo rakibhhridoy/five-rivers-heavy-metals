@@ -1,0 +1,15 @@
+Metal,Season,Model,n_secondary,Baseline_R2,Augmented_R2,Delta_R2,Improved
+Cd,Rainy,Dual Attention,6,0.498,0.549,0.051,True
+Cd,Winter,Dual Attention,21,0.492,0.579,0.087,True
+Cr,Rainy,Transformer CNN,16,-0.082,-1.19,-1.108,False
+Cr,Winter,Transformer CNN,31,-0.024,-1.243,-1.22,False
+As,Rainy,Transformer CNN,6,0.178,0.198,0.02,True
+As,Winter,Transformer CNN,21,0.185,-0.013,-0.198,False
+Pb,Rainy,Transformer CNN,16,0.334,0.415,0.081,True
+Pb,Winter,Transformer CNN,31,0.429,0.423,-0.006,False
+Cu,Rainy,Transformer CNN,16,0.456,0.539,0.083,True
+Cu,Winter,Transformer CNN,31,0.208,0.323,0.115,True
+Ni,Rainy,Transformer CNN,11,0.331,0.459,0.128,True
+Ni,Winter,Transformer CNN,26,0.188,0.137,-0.05,False
+Fe,Rainy,XGBoost,10,0.542,-0.082,-0.624,False
+Fe,Winter,XGBoost,25,0.484,-0.703,-1.188,False

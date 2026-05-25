@@ -1,0 +1,15 @@
+Metal,Season,Model,v2_5fold_R2,v2_5fold_R2_std,Manuscript_R2_synthetic_AE,Delta_v2_vs_manuscript
+Cd,Rainy,Dual Attention,0.724,0.084,0.944,-0.22
+Cd,Winter,Dual Attention,0.703,0.043,0.937,-0.234
+Cr,Rainy,Transformer CNN,0.271,0.265,0.932,-0.661
+Cr,Winter,Transformer CNN,0.204,0.179,0.916,-0.712
+As,Rainy,Transformer CNN,0.461,0.305,0.899,-0.438
+As,Winter,Transformer CNN,0.379,0.208,0.954,-0.575
+Pb,Rainy,Transformer CNN,0.566,0.103,0.94,-0.374
+Pb,Winter,Transformer CNN,0.681,0.095,0.929,-0.248
+Cu,Rainy,Transformer CNN,0.709,0.196,0.91,-0.201
+Cu,Winter,Transformer CNN,0.59,0.209,0.902,-0.312
+Ni,Rainy,Transformer CNN,0.614,0.136,0.909,-0.295
+Ni,Winter,Transformer CNN,0.455,0.092,0.919,-0.464
+Fe,Rainy,XGBoost,0.542,0.273,0.803,-0.261
+Fe,Winter,XGBoost,0.484,0.325,0.714,-0.23

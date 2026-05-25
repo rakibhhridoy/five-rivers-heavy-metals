@@ -1,0 +1,29 @@
+# Reproducibility pins captured from the environment used to produce the
+# manuscript figures and tables (Python 3.11.15, macOS arm64).
+# A wider range will likely work but is not tested.
+
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.16.2
+scikit-learn==1.8.0
+matplotlib==3.10.9
+xgboost>=2.0,<3.0
+
+# --- Deep-learning stack (phase4e/4f/5/4g, extra_dl_architectures, extra_lime) ---
+# IMPORTANT: TensorFlow and protobuf must be version-matched. TF 2.16.x pairs with
+# protobuf 4.25.x; mismatches cause "libprotobuf.NN.dylib not loaded" / gencode-vs-runtime
+# errors (see docs/AUDIT_COVERAGE.md, environment note). Pin both together.
+tensorflow==2.16.2
+protobuf>=4.25,<5
+lime>=0.2                     # extra_lime_explanations.py (Fig 9)
+
+pymannkendall>=1.4
+geopandas>=0.14              # phase4a proximity features (shapefile reads)
+shapely>=2.0
+
+# --- Optional / GIS-heavy (not required for tabular reproduction) ---
+# rasterio: only for src/gis/calculate_spectral_indices.py (needs the Zenodo raster archive).
+# earthengine-api: only to re-extract AlphaEarth embeddings from Google Earth Engine
+#   (data/sedimentRO_v2.csv and data/sedimentWO_v2.csv ship pre-extracted).
+# rasterio>=1.3
+# earthengine-api>=0.1.380

@@ -1,0 +1,83 @@
+Matrix,Location,Season,Metal,Concentration,Unit
+Water,Buriganga,Wet,Cr,0.0261,mg/L
+Water,Buriganga,Wet,Ni,0.061,mg/L
+Water,Buriganga,Wet,Cu,0.0538,mg/L
+Water,Buriganga,Wet,As,0.0067,mg/L
+Water,Buriganga,Wet,Cd,BDL,mg/L
+Water,Buriganga,Wet,Pb,0.0464,mg/L
+Water,Buriganga,Dry,Cr,0.041,mg/L
+Water,Buriganga,Dry,Ni,0.1649,mg/L
+Water,Buriganga,Dry,Cu,0.126,mg/L
+Water,Buriganga,Dry,As,0.0302,mg/L
+Water,Buriganga,Dry,Cd,BDL,mg/L
+Water,Buriganga,Dry,Pb,0.147,mg/L
+Water,Turag,Wet,Cr,0.0243,mg/L
+Water,Turag,Wet,Ni,0.0583,mg/L
+Water,Turag,Wet,Cu,0.0492,mg/L
+Water,Turag,Wet,As,0.0058,mg/L
+Water,Turag,Wet,Pb,0.0412,mg/L
+Water,Turag,Dry,Cr,0.0381,mg/L
+Water,Turag,Dry,Ni,0.1582,mg/L
+Water,Turag,Dry,Cu,0.118,mg/L
+Water,Turag,Dry,As,0.0289,mg/L
+Water,Turag,Dry,Pb,0.138,mg/L
+Water,Shitalakhya,Wet,Cr,0.0192,mg/L
+Water,Shitalakhya,Wet,Ni,0.0421,mg/L
+Water,Shitalakhya,Wet,Cu,0.0384,mg/L
+Water,Shitalakhya,Wet,As,0.0045,mg/L
+Water,Shitalakhya,Wet,Pb,0.0321,mg/L
+Water,Shitalakhya,Dry,Cr,0.0298,mg/L
+Water,Shitalakhya,Dry,Ni,0.1245,mg/L
+Water,Shitalakhya,Dry,Cu,0.095,mg/L
+Water,Shitalakhya,Dry,As,0.0211,mg/L
+Water,Shitalakhya,Dry,Pb,0.105,mg/L
+Water,Balu,Wet,Cr,0.0215,mg/L
+Water,Balu,Wet,Ni,0.0498,mg/L
+Water,Balu,Wet,Cu,0.0421,mg/L
+Water,Balu,Wet,As,0.0051,mg/L
+Water,Balu,Wet,Pb,0.0365,mg/L
+Water,Balu,Dry,Cr,0.0342,mg/L
+Water,Balu,Dry,Ni,0.1412,mg/L
+Water,Balu,Dry,Cu,0.108,mg/L
+Water,Balu,Dry,As,0.0254,mg/L
+Water,Balu,Dry,Pb,0.122,mg/L
+Water,Dhaleshwari,Wet,Cr,0.0231,mg/L
+Water,Dhaleshwari,Wet,Ni,0.0542,mg/L
+Water,Dhaleshwari,Wet,Cu,0.0462,mg/L
+Water,Dhaleshwari,Wet,As,0.0055,mg/L
+Water,Dhaleshwari,Wet,Pb,0.0398,mg/L
+Water,Dhaleshwari,Dry,Cr,0.0365,mg/L
+Water,Dhaleshwari,Dry,Ni,0.1512,mg/L
+Water,Dhaleshwari,Dry,Cu,0.112,mg/L
+Water,Dhaleshwari,Dry,As,0.0272,mg/L
+Water,Dhaleshwari,Dry,Pb,0.131,mg/L
+Sediment,Spot 1,Wet,As,6.5,mg/kg
+Sediment,Spot 1,Wet,Pb,21.58,mg/kg
+Sediment,Spot 1,Wet,Cd,1.36,mg/kg
+Sediment,Spot 1,Wet,Cr,1199.46,mg/kg
+Sediment,Spot 1,Wet,Cu,108.07,mg/kg
+Sediment,Spot 1,Dry,As,7.5,mg/kg
+Sediment,Spot 1,Dry,Pb,19.27,mg/kg
+Sediment,Spot 1,Dry,Cd,1.48,mg/kg
+Sediment,Spot 1,Dry,Cr,250.189,mg/kg
+Sediment,Spot 1,Dry,Cu,216.44,mg/kg
+Sediment,Spot 2,Wet,As,4.97,mg/kg
+Sediment,Spot 2,Wet,Pb,52.86,mg/kg
+Sediment,Spot 2,Wet,Cd,1.42,mg/kg
+Sediment,Spot 2,Wet,Cr,1126.66,mg/kg
+Sediment,Spot 2,Wet,Cu,45.91,mg/kg
+Sediment,Spot 2,Dry,As,5.1,mg/kg
+Sediment,Spot 2,Dry,Pb,29.57,mg/kg
+Sediment,Spot 2,Dry,Cd,1.41,mg/kg
+Sediment,Spot 2,Dry,Cr,117.53,mg/kg
+Sediment,Spot 2,Dry,Cu,68.98,mg/kg
+Sediment,Spot 3,Wet,As,3.67,mg/kg
+Sediment,Spot 3,Wet,Pb,62.15,mg/kg
+Sediment,Spot 3,Wet,Cd,1.33,mg/kg
+Sediment,Spot 3,Wet,Cr,1050.25,mg/kg
+Sediment,Spot 3,Wet,Cu,38.42,mg/kg
+Sediment,Spot 3,Dry,As,4.25,mg/kg
+Sediment,Spot 3,Dry,Pb,35.8,mg/kg
+Sediment,Spot 3,Dry,Cd,1.38,mg/kg
+Sediment,Spot 3,Dry,Cr,98.45,mg/kg
+Sediment,Spot 3,Dry,Cu,55.12,mg/kg

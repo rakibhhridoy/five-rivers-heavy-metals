@@ -1,0 +1,6 @@
+Paper_ID,Station,Season,Metal,Old_BG,Igeo_orig,Old_class,Igeo_new_TW1961,New_class
+4,Mean_S1_S10,Rainy,Cu,Martin & Meybeck 1979,0.69,1_unconta_to_moderate,1.06,2_moderate
+4,Mean_S1_S10,Rainy,As,Martin & Meybeck 1979,2.57,3_moderate_to_strong,-0.54,0_uncontaminated
+4,Mean_S1_S10,Rainy,Cd,Martin & Meybeck 1979,-6.57,0_uncontaminated,3.4,4_strong
+4,Mean_S1_S10,Winter,As,Martin & Meybeck 1979,2.62,3_moderate_to_strong,-0.48,0_uncontaminated
+4,Mean_S1_S10,Winter,Cd,Martin & Meybeck 1979,-6.48,0_uncontaminated,3.48,4_strong

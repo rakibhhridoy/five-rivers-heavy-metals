@@ -1,0 +1,28 @@
+# macOS metadata
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Intermediate/temporary
+*.log
+*.aux
+*.out
+*.tmp

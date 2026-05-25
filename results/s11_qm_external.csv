@@ -1,0 +1,15 @@
+Metal,Season,n_lit,Model,Raw_External_R2,QM_External_R2,Delta_QM_minus_Raw,QM_passes_zero
+Cd,Rainy,6,RF,-6.135,0.995,7.131,True
+Cd,Winter,21,SVR,-0.027,-0.302,-0.275,False
+Cr,Rainy,16,XGBoost,-0.529,0.443,0.972,True
+Cr,Winter,31,RF,-1.111,-1.604,-0.492,False
+As,Rainy,6,XGBoost,-2.737,-0.649,2.089,False
+As,Winter,21,SVR,0.007,-0.42,-0.427,False
+Pb,Rainy,16,SVR,-9.337,-1.251,8.087,False
+Pb,Winter,31,SVR,-13.487,-0.179,13.308,False
+Cu,Rainy,16,SVR,-0.094,-0.237,-0.143,False
+Cu,Winter,31,XGBoost,-0.164,-0.887,-0.723,False
+Ni,Rainy,11,SVR,-0.221,-0.29,-0.069,False
+Ni,Winter,26,SVR,-0.049,-0.595,-0.545,False
+Fe,Rainy,10,XGBoost,-3521.519,-1.644,3519.875,False
+Fe,Winter,25,XGBoost,-36.475,-0.058,36.417,False

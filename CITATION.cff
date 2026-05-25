@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite both the software (this repository) and the associated paper."
+title: "five-rivers-heavy-metals: Reproducibility package for sediment heavy-metal source attribution and satellite-prediction boundaries in Dhaka's five rivers"
+authors:
+  - family-names: Hasan
+    given-names: Md Rakib
+    affiliation: "University of Dhaka"
+    email: rakibhridoy63@gmail.com
+  - family-names: Rahman
+    given-names: ""
+  - family-names: Zubyer
+    given-names: ""
+  - family-names: Rupa
+    given-names: ""
+  - family-names: Arabi
+    given-names: ""
+  - family-names: Jolly
+    given-names: Yeasmin Nahar
+    affiliation: "Atomic Energy Centre, Dhaka"
+type: software
+license: MIT
+repository-code: "https://github.com/<your-handle>/five-rivers-heavy-metals"
+keywords:
+  - heavy metals
+  - sediment
+  - source apportionment
+  - Google AlphaEarth
+  - remote sensing
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Geochemistry Source Attribution and Satellite-Prediction Boundaries for Heavy Metals in Dhaka's Five Rivers"
+  authors:
+    - family-names: Hasan
+      given-names: Md Rakib
+    - family-names: Jolly
+      given-names: Yeasmin Nahar
+  journal: "Science of the Total Environment"
+  year: 2026
+  doi: "10.xxxx/xxxxxx"  # update on acceptance

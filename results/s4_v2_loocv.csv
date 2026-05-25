@@ -1,0 +1,15 @@
+Metal,Season,Best_Model,Best_LOOCV_R2,Best_LOOCV_RMSE,XGBoost_LOOCV_R2,RF_LOOCV_R2,SVR_LOOCV_R2
+Cd,Rainy,Dual Attention,0.488,2.21,0.33,0.406,0.607
+Cd,Winter,Dual Attention,0.419,3.03,0.241,0.335,0.527
+Cr,Rainy,Transformer CNN,-0.212,31.21,-0.315,-0.133,-0.089
+Cr,Winter,Transformer CNN,-0.074,38.23,-0.21,-0.081,-0.028
+As,Rainy,Transformer CNN,-0.268,5.2,-1.089,-0.5,-0.473
+As,Winter,Transformer CNN,-0.237,7.14,-0.977,-0.278,-0.44
+Pb,Rainy,Transformer CNN,0.112,45.82,-0.744,-0.084,-0.23
+Pb,Winter,Transformer CNN,-0.238,92.01,-0.39,-0.015,-0.226
+Cu,Rainy,Transformer CNN,-0.043,30.02,0.243,0.184,0.087
+Cu,Winter,Transformer CNN,-0.228,55.97,-0.218,0.21,0.013
+Ni,Rainy,Transformer CNN,-0.35,16.14,0.361,-0.076,-0.053
+Ni,Winter,Transformer CNN,-0.832,29.19,-0.212,-0.241,-0.071
+Fe,Rainy,XGBoost,-0.627,11132.03,-0.627,-0.272,-0.081
+Fe,Winter,XGBoost,-0.952,9143.68,-0.952,-0.372,-0.146

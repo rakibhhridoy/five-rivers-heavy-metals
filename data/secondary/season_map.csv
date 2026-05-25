@@ -1,0 +1,9 @@
+Season,Mapped_To,Count
+Dry,Winter,41
+Monsoon,Rainy,5
+Post-monsoon,Winter,5
+Pre-monsoon,Rainy,5
+Rainy,Rainy,1
+Summer,Rainy,20
+Wet,Rainy,10
+Winter,Winter,20

@@ -1,0 +1,6 @@
+River,Metal,n_years,Year_first,Year_last,Median_first,Median_last,Pct_change,MK_tau,MK_pvalue,MK_trend
+Buriganga,Cr,2,2015,2021,1456.0,121.28999999999999,-91.66964285714286,,,n<3 (descriptive only)
+Buriganga,Cu,2,2015,2021,65.8,31.43,-52.234042553191486,,,n<3 (descriptive only)
+Buriganga,Fe,2,2015,2021,12885.0,4315.14,-66.51036088474972,,,n<3 (descriptive only)
+Buriganga,Ni,2,2015,2021,49.51,32.595,-34.16481518885074,,,n<3 (descriptive only)
+Buriganga,Pb,2,2015,2021,68.8,16.475,-76.05377906976744,,,n<3 (descriptive only)

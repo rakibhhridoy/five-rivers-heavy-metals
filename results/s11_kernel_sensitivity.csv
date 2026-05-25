@@ -1,0 +1,13 @@
+Metal,Season,Kernel,R2
+Cd,Rainy,RBF,0.628
+Cd,Winter,RBF,0.646
+Cd,Rainy,Matern_1.5,0.652
+Cd,Winter,Matern_1.5,0.647
+Cd,Rainy,Matern_2.5,0.623
+Cd,Winter,Matern_2.5,0.632
+Pb,Rainy,RBF,0.502
+Pb,Winter,RBF,0.514
+Pb,Rainy,Matern_1.5,0.468
+Pb,Winter,Matern_1.5,0.464
+Pb,Rainy,Matern_2.5,0.498
+Pb,Winter,Matern_2.5,0.506

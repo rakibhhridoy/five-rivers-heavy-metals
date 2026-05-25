@@ -1,0 +1,15 @@
+Metal,Season,Model,CV_R2_v2,CV_R2_v2_std,Manu_5fold_R2,External_R2,External_RMSE,External_MAE,External_n,Delta_ExtCV_v2,Delta_Ext_vs_Manu,Gate_G3_pass
+Cd,Rainy,Dual Attention,0.7,0.082,0.944,-3.626,2.621,2.124,6,-4.326,-4.57,False
+Cd,Winter,Dual Attention,0.647,0.075,0.937,-0.282,3.574,3.008,21,-0.928,-1.219,False
+Cr,Rainy,Transformer CNN,0.237,0.205,0.932,-0.529,621.46,374.295,16,-0.766,-1.461,False
+Cr,Winter,Transformer CNN,0.196,0.253,0.916,-1.122,957.616,695.813,31,-1.318,-2.038,False
+As,Rainy,Transformer CNN,0.421,0.295,0.899,-2.676,6.161,5.482,6,-3.097,-3.575,False
+As,Winter,Transformer CNN,0.308,0.244,0.954,-0.542,7.906,6.806,21,-0.85,-1.496,False
+Pb,Rainy,Transformer CNN,0.533,0.055,0.94,-17.51,63.727,57.622,16,-18.044,-18.45,False
+Pb,Winter,Transformer CNN,0.661,0.119,0.929,-20.586,108.455,104.562,31,-21.247,-21.515,False
+Cu,Rainy,Transformer CNN,0.68,0.203,0.91,0.016,36.852,30.302,16,-0.664,-0.894,False
+Cu,Winter,Transformer CNN,0.506,0.23,0.902,-0.183,83.244,60.829,31,-0.689,-1.085,False
+Ni,Rainy,Transformer CNN,0.587,0.122,0.909,-0.083,21.911,16.279,11,-0.67,-0.992,False
+Ni,Winter,Transformer CNN,0.557,0.119,0.919,-0.552,20.023,16.447,26,-1.11,-1.471,False
+Fe,Rainy,XGBoost,0.542,0.273,0.803,-3521.519,29420.845,29283.02,10,-3522.061,-3522.322,False
+Fe,Winter,XGBoost,0.484,0.325,0.714,-36.475,26167.266,25877.795,25,-36.96,-37.189,False
